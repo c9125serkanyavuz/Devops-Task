@@ -1,0 +1,12 @@
+Thank you for installing my {{ .Chart.Name }}.
+
+Your release is named {{ .Release.Name }}.
+
+To learn more about the release, try:
+
+  $ helm status {{ .Release.Name }}
+  $ helm get all {{ .Release.Name }}
+
+#Hello, this is for the task you gave me.
+#I believe that if you hire me, I will be beneficial to myself and to you.
+#I hope see you again. :)
