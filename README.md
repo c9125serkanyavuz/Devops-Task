@@ -5,7 +5,7 @@
 4. Jenkins Sever'a:
     "cloudformation plugin" yüklemek gerekiyor ve
     "cloudformation full access" role atamak gerekiyor.
-Jenkinsfile:
-1. stage: uygulamanın deploy edileceği Infrastructure'ı CloudFormation ile ayağa kaldırıyor. 
-2. stage: Ec2 instance ready olana kadar beklenmesini sağlıyor. 
-3. stage: Uygulamayı Helm kullanarak instance'a deploy ediyor
+    Jenkinsfile:
+    1. stage: uygulamanın deploy edileceği Infrastructure'ı CloudFormation ile ayağa kaldırıyor. 
+    2. stage: Ec2 instance ready olana kadar beklenmesini sağlıyor. 
+    3. stage: Uygulamayı Helm kullanarak instance'a deploy ediyor
